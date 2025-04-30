@@ -92,31 +92,31 @@ endfunction
 " Composition ------------------------------------------------------------ {{{1
 
 " PRIMITIVES
-call s:HL('Boolean'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Character'	  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Constant'	  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Float'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Number'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('String'		  , s:palette.gray12, s:palette.black , 'none'	   )
+call s:HL('Boolean'		  , s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('Character'	  , s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('Constant'	  , s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('Float'		  , s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('Number'		  , s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('String'		  , s:palette.gray17, s:palette.black , 'none'	   )
 call s:HL('SpecialChar'	  , s:palette.white , s:palette.black , 'none'	   )
 
 " COMMENTS
-call s:HL('Comment'		  , s:palette.gray08, s:palette.black , 'bold'	   )
-call s:HL('SpecialComment', s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Title'		  , s:palette.gray09, s:palette.black , 'bold'	   )
+call s:HL('Comment'		  , s:palette.gray13, s:palette.black , 'bold'	   )
+call s:HL('SpecialComment', s:palette.gray14, s:palette.black , 'bold'	   )
+call s:HL('Title'		  , s:palette.gray14, s:palette.black , 'bold'	   )
 call s:HL('Todo'		  , s:palette.purple, s:palette.black , 'bold'	   )
 
 " LINES, COLUMNS
-call s:HL('LineNr'		  , s:palette.gray06, s:palette.black , 'bold'	   )
-call s:HL('CursorLine'	  , s:palette.white , s:palette.gray03, 'none'	   )
-call s:HL('CursorLineNr'  , s:palette.gray09, s:palette.black , 'bold'	   )
+call s:HL('LineNr'		  , s:palette.gray11, s:palette.black , 'bold'	   )
+call s:HL('CursorLine'	  , s:palette.white , s:palette.gray08, 'none'	   )
+call s:HL('CursorLineNr'  , s:palette.gray14, s:palette.black , 'bold'	   )
 
-call s:HL('ColorColumn'	  , s:palette.white , s:palette.gray03, 'none'	   )
-call s:HL('CursorColumn'  , s:palette.gray16, s:palette.gray03, 'none'	   )
+call s:HL('ColorColumn'	  , s:palette.white , s:palette.gray08, 'none'	   )
+call s:HL('CursorColumn'  , s:palette.gray21, s:palette.gray08, 'none'	   )
 
 " VISUAL MODE
-call s:HL('Visual'		  , s:palette.green , s:palette.gray06, 'none'	   )
-call s:HL('VisualNOS'	  , s:palette.green , s:palette.gray06, 'none'	   )
+call s:HL('Visual'		  , s:palette.green , s:palette.gray11, 'none'	   )
+call s:HL('VisualNOS'	  , s:palette.green , s:palette.gray11, 'none'	   )
 
 " SEARCH
 call s:HL('Search'		  , s:palette.black , s:palette.yellow, 'bold'	   )
@@ -164,28 +164,28 @@ call s:HL('Label'		  , s:palette.white	, s:palette.black , 'bold'	   )
 call s:HL('Exception'	  , s:palette.white	, s:palette.black , 'bold'	   )
 
 " MISC
-call s:HL('Normal'		  , s:palette.gray19, s:palette.black , 'none'	   )
+call s:HL('Normal'		  , s:palette.gray23, s:palette.black , 'none'	   )
 call s:HL('Cursor'		  , s:palette.white , s:palette.black , 'none'	   , 'gui_macvim')
-call s:HL('Underlined'	  , s:palette.gray12, s:palette.black , 'underline')
+call s:HL('Underlined'	  , s:palette.gray17, s:palette.black , 'underline')
 call s:HL('SpecialKey'	  , s:palette.white	, s:palette.black , 'bold'	   )
 call s:HL('NonText'		  , s:palette.white , s:palette.black , 'bold'	   )
 call s:HL('Directory'  	  , s:palette.orange, s:palette.black , 'none'	   )
 
 " FOLD
-call s:HL('FoldColumn'	  , s:palette.gray06, s:palette.black , 'bold'	   )
-call s:HL('Folded'		  , s:palette.gray06, s:palette.black , 'bold'	   )
+call s:HL('FoldColumn'	  , s:palette.gray11, s:palette.black , 'bold'	   )
+call s:HL('Folded'		  , s:palette.gray11, s:palette.black , 'bold'	   )
 
 " PARENTHESIS
 call s:HL('MatchParen'	  , s:palette.orange, s:palette.black , 'bold'	   )
 
 " POPUP
-call s:HL('Pmenu'		  , s:palette.white , s:palette.gray09, 'none'	   )
-call s:HL('PmenuSbar'	  , s:palette.black , s:palette.gray19, 'none'	   )
-call s:HL('PmenuSel'	  , s:palette.black , s:palette.gray19, 'none'	   )
-call s:HL('PmenuThumb'	  , s:palette.gray01, s:palette.gray09, 'none'	   )
+call s:HL('Pmenu'		  , s:palette.white , s:palette.gray14, 'none'	   )
+call s:HL('PmenuSbar'	  , s:palette.black , s:palette.gray23, 'none'	   )
+call s:HL('PmenuSel'	  , s:palette.black , s:palette.gray23, 'none'	   )
+call s:HL('PmenuThumb'	  , s:palette.gray06, s:palette.gray14, 'none'	   )
 
 " SPLITS
-call s:HL('VertSplit'	  , s:palette.gray19, s:palette.black , 'none'	   )
+call s:HL('VertSplit'	  , s:palette.gray23, s:palette.black , 'none'	   )
 
 " OTHERS
 call s:HL('Debug'		  , s:palette.white	, s:palette.black , 'none'	   )
