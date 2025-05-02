@@ -216,6 +216,9 @@ call s:HL('DiffText'	  , s:palette.black , s:palette.yellow, 'none'	   )
 
 " Plugin Specific -------------------------------------------------------- {{{1
 
+" ministatusline
+call s:HL('MiniStatusLineInactive'	, s:palette.gray20, s:palette.gray05, 'none'	)
+
 " RAINBOW PARENTHESIS
 
 let g:rbpt_colorpairs = [
