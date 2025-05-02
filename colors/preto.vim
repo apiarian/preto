@@ -217,7 +217,10 @@ call s:HL('DiffText'	  , s:palette.black , s:palette.yellow, 'none'	   )
 " Plugin Specific -------------------------------------------------------- {{{1
 
 " ministatusline
-call s:HL('MiniStatusLineInactive'	, s:palette.gray20, s:palette.gray05, 'none'	)
+call s:HL('MiniStatuslineDevinfo'	, s:palette.white, s:palette.gray04, 'none'	)
+call s:HL('MiniStatuslineFilename'	, s:palette.white, s:palette.gray05, 'none'	)
+call s:HL('MiniStatuslineFileinfo'	, s:palette.white, s:palette.gray04, 'none'	)
+call s:HL('MiniStatusLineInactive'	, s:palette.gray20, s:palette.gray01, 'none'	)
 
 " RAINBOW PARENTHESIS
 
