@@ -196,6 +196,7 @@ call s:HL('StatusLine' 	  , s:palette.black	, s:palette.white , 'none'	   , 'gui
 call s:HL('StatusLineNC'  , s:palette.black	, s:palette.white , 'none'	   , 'gui_macvim')
 call s:HL('Tag'		  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('WildMenu'   	  , s:palette.white	, s:palette.black , 'none'	   )
+call s:HL('TabLine'	  , s:palette.black	, s:palette.white, 'none'	)
 call s:HL('TabLineSel'	  , s:palette.gray05	, s:palette.white, 'none'	   )
 
 " DIFF
