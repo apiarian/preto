@@ -192,11 +192,11 @@ call s:HL('Debug'	  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('Delimiter'  	  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('Question'   	  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('Special'	  , s:palette.white	, s:palette.black , 'none'	   )
-call s:HL('StatusLine' 	  , s:palette.white	, s:palette.black , 'none'	   , 'gui_macvim')
-call s:HL('StatusLineNC'  , s:palette.white	, s:palette.black , 'none'	   , 'gui_macvim')
+call s:HL('StatusLine' 	  , s:palette.black	, s:palette.white , 'none'	   , 'gui_macvim')
+call s:HL('StatusLineNC'  , s:palette.black	, s:palette.white , 'none'	   , 'gui_macvim')
 call s:HL('Tag'		  , s:palette.white	, s:palette.black , 'none'	   )
 call s:HL('WildMenu'   	  , s:palette.white	, s:palette.black , 'none'	   )
-call s:HL('TabLineSel'	  , s:palette.white	, s:palette.gray05, 'none'	   )
+call s:HL('TabLineSel'	  , s:palette.gray05	, s:palette.white, 'none'	   )
 
 " DIFF
 call s:HL('DiffAdd'	  , s:palette.white , s:palette.green , 'none'	   )
@@ -218,10 +218,10 @@ call s:HL('DiffText'	  , s:palette.black , s:palette.yellow, 'none'	   )
 " Plugin Specific -------------------------------------------------------- {{{1
 
 " ministatusline
-call s:HL('MiniStatuslineDevinfo'	, s:palette.white, s:palette.gray04, 'none'	)
-call s:HL('MiniStatuslineFilename'	, s:palette.white, s:palette.gray05, 'none'	)
-call s:HL('MiniStatuslineFileinfo'	, s:palette.white, s:palette.gray04, 'none'	)
-call s:HL('MiniStatusLineInactive'	, s:palette.gray20, s:palette.gray01, 'none'	)
+call s:HL('MiniStatuslineDevinfo'	, s:palette.gray04, s:palette.white, 'none'	)
+call s:HL('MiniStatuslineFilename'	, s:palette.gray05, s:palette.white, 'none'	)
+call s:HL('MiniStatuslineFileinfo'	, s:palette.gray04, s:palette.white, 'none'	)
+call s:HL('MiniStatusLineInactive'	, s:palette.gray01, s:palette.gray20, 'none'	)
 
 " RAINBOW PARENTHESIS
 
